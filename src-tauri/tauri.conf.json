@@ -17,7 +17,8 @@
         "width": 1920,
         "height": 1080,
         "resizable": true,
-        "transparent": true
+        "transparent": true,
+        "alwaysOnTop": true
       }
     ],
     "macOSPrivateApi": true,
