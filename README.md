@@ -4,8 +4,9 @@
 
 雪を降らせながら奥にあるターミナル操作等を行うことができます。
 
+![snowflake](https://github.com/user-attachments/assets/6caf3c89-5641-4722-a43d-57a1ab63b4fa)
 
-https://github.com/user-attachments/assets/0af0f2b8-de22-42d1-9475-def680e2df5d
+
 
 # 技術スタック
 
