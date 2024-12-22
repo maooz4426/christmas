@@ -45,6 +45,8 @@ jobs:
 
       - name: install Rust stable
         uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
 #        with:
 #          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
 
