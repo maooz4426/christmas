@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  pull_requests:
+    types:
+      - open
+      - reopen
+      - synchronize
+    branches:
+      - main
 
 jobs:
   publish-tauri:
