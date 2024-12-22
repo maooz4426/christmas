@@ -4,7 +4,7 @@ import {Snowfall} from "react-snowfall";
 function App() {
 
     const snowflake1 = document.createElement('img')
-    snowflake1.src = 'public/snowflake.png';
+    snowflake1.src = 'snowflake.png';
 
     const image = [snowflake1]
 

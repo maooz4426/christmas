@@ -25,7 +25,7 @@ pub fn run() {
         .setup(|app| {
             let webview_window = app.get_webview_window("main").unwrap();
 
-            webview_window.set_ignore_cursor_events(true);
+            let _ = webview_window.set_ignore_cursor_events(true);
             Ok(())
         })
         .run(tauri::generate_context!())
