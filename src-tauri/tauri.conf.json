@@ -14,11 +14,12 @@
     "windows": [
       {
         "title": "christmas",
-        "width": 1920,
-        "height": 1080,
+        "maximized": true,
         "resizable": true,
         "transparent": true,
-        "alwaysOnTop": true
+        "alwaysOnTop": true,
+        "decorations": false,
+        "focus": true
       }
     ],
     "macOSPrivateApi": true,

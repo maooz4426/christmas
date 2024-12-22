@@ -1,7 +1,7 @@
 
 use tauri::Manager;
-#[cfg(target_os = "macos")]
-use cocoa::appkit::NSWindow;
+// #[cfg(target_os = "macos")]
+// use cocoa::appkit::NSWindow;
 pub fn run() {
 
     // tauri::Builder::default()
@@ -20,12 +20,12 @@ pub fn run() {
     //         Ok(())
     //     })
     //     .run(tauri::generate_context!())
-    //     .expect("error while running tauri application");
+    //     .expect("errtor while running tauri application");
     tauri::Builder::default()
         .setup(|app| {
             let webview_window = app.get_webview_window("main").unwrap();
 
-            webview_window.set_ignore_cursor_events(true);
+            let _ = webview_window.set_ignore_cursor_events(true);
             Ok(())
         })
         .run(tauri::generate_context!())
