@@ -17,7 +17,7 @@
 
 # インストール
 
-アプリのインストールはこちらから
+アプリのインストールは[こちら](https://github.com/maooz4426/christmas/releases/tag/app-v0.1.0)から
 
 
 # ローカルで起動する場合
