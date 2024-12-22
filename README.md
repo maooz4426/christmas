@@ -1,7 +1,37 @@
-# Tauri + React + Typescript
+# christmas
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+デスクトップ画面に雪を降らせるアプリケーションです。
 
-## Recommended IDE Setup
+雪を降らせながら奥にあるターミナル操作等を行うことができます。
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+https://github.com/user-attachments/assets/0af0f2b8-de22-42d1-9475-def680e2df5d
+
+# 技術スタック
+
+- Tauri
+- Vite
+- React
+- pnpm
+
+# インストール
+
+アプリのインストールはこちらから
+
+
+# ローカルで起動する場合
+
+- 依存関係をインストール
+```
+pnpm install
+```
+
+- dev環境を起動
+```
+pnpm tauri dev
+```
+
+- ビルド
+```
+pnpm tauri build
+```
